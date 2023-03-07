@@ -26,7 +26,6 @@ const todoList = () => {
   }
 
   const toDisplayableList = (list) => {
-     const toDisplayableList = (list) => {
       let mylist = [];
         list.forEach((item) => {
             if (item.dueDate === today) {
@@ -44,7 +43,6 @@ const todoList = () => {
             }
         })
         return mylist.join("\n")
-    }
   }
 
   return {
